@@ -12,5 +12,5 @@ var handler = function(request, response) {
  
  var www = http.createServer(handler);
  www.listen(8080);
- var mywww = http.createServer(handler);
+ var mywww = https.createServer(handler);
  mywww.listen(8443);
