@@ -1,4 +1,4 @@
-const http = require('http);
+const http = require('http');
 const os = require('os');
 
 console.log("Kubia server starting...");
