@@ -1,4 +1,4 @@
-const https = require('https');
+const http = require('http);
 const os = require('os');
 
 console.log("Kubia server starting...");
@@ -9,5 +9,5 @@ var handler = function(request, response) {
   response.end("You've hit the server named " + os.hostname() + "\n");
  };
  
- var www = https.createServer(handler);
+ var www = http.createServer(handler);
  www.listen(8443);
